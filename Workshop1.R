@@ -11,3 +11,5 @@ library(janitor)
 olympics<-read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-07-27/olympics.csv')
 
 olympics%>%head()
+
+olympics%>% head(20)
